@@ -1,0 +1,46 @@
+# Credenciais e configurações locais
+/config.php
+.env
+.env.*
+!.env.example
+
+# Material interno e dados reais
+/não subir/
+/Imagens e Vídeos Reais do lava-jato/
+
+# Mídias grandes ou operacionais
+*.mp4
+/public/uploads/
+/Imagem e Vídeos veiculos de site/*
+!/Imagem e Vídeos veiculos de site/lavagem-carro-guanhaes.avif
+!/Imagem e Vídeos veiculos de site/estetica-automotiva-guanhaes.avif
+!/Imagem e Vídeos veiculos de site/lavagem-detalhada-carro-guanhaes.avif
+!/Imagem e Vídeos veiculos de site/polimento-automotivo-guanhaes.avif
+!/Imagem e Vídeos veiculos de site/higienizacao-automotiva-guanhaes.avif
+!/Imagem e Vídeos veiculos de site/lava-jato-pelicano-guanhaes.avif
+/public/assets/img/pelicano-logo.jpg
+/public/assets/img/pelicano-logo.svg
+
+# Bancos, seeds, dumps e arquivos de execução
+*.sql
+!/database/schema.example.sql
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
+*.log
+
+# Chaves e certificados
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*
+
+# Editor e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
